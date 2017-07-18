@@ -10,7 +10,7 @@ import junit.framework.TestSuite;
 public class AppTest 
     extends TestCase
 {
-	private App app;
+	private Hello app;
     /**
      * Create the test case
      *
@@ -22,7 +22,7 @@ public class AppTest
     }
 
 	protected void setUp(){
-		app = new App();
+		app = new Hello();
 		System.out.println("setUp() is executed");
 	}
 

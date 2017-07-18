@@ -4,7 +4,7 @@ package cc.openhome;
  * Hello world!
  *
  */
-public class App 
+public class Hello 
 {
 	public String print(){
 		return "Hello World!";
