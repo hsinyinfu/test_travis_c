@@ -6,8 +6,11 @@ package cc.openhome;
  */
 public class App 
 {
+	public String print(){
+		return "Hello World!";
+	}
     public static void main( String[] args )
     {
-        System.out.println( "Hell World!" );
+        System.out.println( "Hello World!" );
     }
 }
