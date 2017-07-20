@@ -43,6 +43,6 @@ public class AppTest
      */
     public void testApp()
     {
-        assertEquals("Hello World!", app.print());
+        assertEquals("Hello World", app.print());
     }
 }
