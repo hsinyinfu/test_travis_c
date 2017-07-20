@@ -12,5 +12,9 @@ notifications:
 
 sudo: false
 
+cahce:
+    directories:
+        - $HOME/.m2
+
 script:
     mvn clean test 
